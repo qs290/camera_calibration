@@ -58,7 +58,7 @@ dst = cv.undistort(img, mtx, dist, None, newcameramtx)
 # recadrer l'image
 x, y, w, h = roi
 dst = dst[y:y+h, x:x+w]
-cv.imwrite('E:\\IUT\\2e_annee\\4_semestre\\robotique_vision\\calibresult2.png', dst)
+cv.imwrite('E:\\IUT\\2e_annee\\4_semestre\\robotique_vision\\image_calibresult\\result2.png', dst)
 
 
 mean_error = 0
